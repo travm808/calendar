@@ -22,6 +22,7 @@ while True:
     print("3. Check if Event is Completed")
     print("4. Print the Date of an Event")
     print("5. Check off an Event")
+    print("6. Show List of Events")
     userInput = input("Choose an option number: ")
     if userInput == "1":
         name = input("What is the name of the event? ")
