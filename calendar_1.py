@@ -60,3 +60,5 @@ while True:
             globals()[eventNameDict[eventName]].completed = True
         else:
             print("Event Does Not exist. Please Try Again")
+    elif userInput == "6":
+        print("Test for option 6")
