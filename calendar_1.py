@@ -61,4 +61,12 @@ while True:
         else:
             print("Event Does Not exist. Please Try Again")
     elif userInput == "6":
-        print("Test for option 6")
+        event_on = 0
+        if len(eventNameDict) == 1:
+            print("There are no events currently.")
+        else:
+            print("List of Events")
+            for event in eventNameDict:
+                if event_on > 0:
+                    print(event)
+                event_on += 1
